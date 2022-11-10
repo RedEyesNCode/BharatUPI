@@ -51,7 +51,9 @@
 
 #####  Add the dependency inside the android project
 
-Uploading to JitPack.io soon.
+
+# implementation 'com.github.RedEyesNCode:BharatUPI:1.0.1'
+
 
 ------------
 
