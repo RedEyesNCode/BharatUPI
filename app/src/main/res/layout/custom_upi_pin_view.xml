@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Paytm Paym... \n XXXX0123"
+
+            android:textColor="@color/black"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:lineSpacingExtra="@dimen/_3sdp"
+
+            android:fontFamily="sans-serif-black"
+            android:textSize="@dimen/_10sdp"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="@dimen/_75sdp"
+            android:padding="@dimen/_4sdp"
+            android:src="@drawable/ic_upi_logo"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+
+            android:layout_height="@dimen/_45sdp"/>
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/black"
+            android:text="XXXXXXX0123"
+            android:fontFamily="sans-serif-medium"
+
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:src="@drawable/ic_sort_down"
+            android:padding="@dimen/_6sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_height="@dimen/_25sdp"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/edtOne"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginEnd="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+
+            android:layout_weight="1"
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="add"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="numberPassword"
+            android:maxLength="1"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <EditText
+            android:layout_width="@dimen/_45sdp"
+            android:id="@+id/edtTwo"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:backgroundTint="@color/black"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            android:backgroundTintMode="add"
+            android:imeOptions="actionNext"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_height="@dimen/_45sdp"/>
+
+        <EditText
+            android:layout_width="@dimen/_45sdp"
+            android:id="@+id/edtThree"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:backgroundTint="@color/black"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            android:backgroundTintMode="add"
+            android:imeOptions="actionNext"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_height="@dimen/_45sdp"/>
+        <EditText
+            android:layout_width="@dimen/_45sdp"
+            android:id="@+id/edtFour"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:imeOptions="actionNext"
+            android:layout_margin="@dimen/_3sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="add"
+            android:layout_height="@dimen/_45sdp"/>
+        <EditText
+            android:layout_width="@dimen/_45sdp"
+            android:layout_weight="1"
+            android:inputType="numberPassword"
+            android:imeOptions="actionDone"
+            android:maxLength="1"
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="add"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/edtFive"
+            android:textColor="@color/black"
+
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_height="@dimen/_45sdp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="@dimen/_12sdp"
+        android:gravity="center"
+        android:id="@+id/showHideLayout"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/_18sdp"
+            android:src="@drawable/ic_eye_visible"
+            android:id="@+id/ivEye"
+            android:layout_height="@dimen/_18sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:id="@+id/tvShowHide"
+            android:text="@string/show"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_height="wrap_content">
+
+
+        </TextView>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:paddingTop="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_12sdp"
+        android:textSize="@dimen/_9sdp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/upi_pin_will_keep_your_account_secure_from_unauthorized_n_acess_do_not_share_this_pin_with_anyone"
+        android:fontFamily="sans-serif-medium"
+
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:visibility="visible"
+
+        android:layout_height="match_parent">
+        <include
+
+            android:layout_alignParentBottom="true"
+            layout="@layout/numeric_keyboard_dev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_16sdp"
+            android:textColor="@color/black"
+            android:text="@string/upi_keyboard_is_disabled"
+
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-black"
+
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

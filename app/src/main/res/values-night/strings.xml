@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="show">SHOW</string>
+    <string name="upi_pin_will_keep_your_account_secure_from_unauthorized_n_acess_do_not_share_this_pin_with_anyone">UPI PIN will keep your account secure from unauthorized \n acess.Do not share this PIN with anyone.</string>
+    <string name="upi_keyboard_is_disabled">UPI KEYBOARD IS DISABLED.</string>
+</resources>
