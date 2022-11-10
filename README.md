@@ -22,7 +22,7 @@
      <td></td>
    </tr>
   <tr>
-    <td><img src="media/upi_preview.jpeg" width=270 height=480></td>
+    <td><img src="media/upi_preview.JPEG" width=270 height=480></td>
   </tr>
  </table>
 
